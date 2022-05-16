@@ -1,0 +1,45 @@
+
+.App-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1c1f24;
+    position: sticky;
+    top: 0;
+  }
+  
+  
+  .logoArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .appName{
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+  }
+  
+  .appLogo{
+    width: 100px;
+    margin-left: 4%;
+  }
+  
+  .connectWeb3{
+    background-color: rgb(66, 249, 215);
+    width: 130px;
+    height: 30px;
+    border-radius: 10px;
+    font-weight: 600;
+    margin-right: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .connectWeb3:hover{
+    cursor: pointer;
+  }
+  

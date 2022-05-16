@@ -1,0 +1,227 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "pollID",
+				"type": "uint256"
+			}
+		],
+		"name": "addPoll",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "pollID",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "candidateID",
+				"type": "uint256"
+			}
+		],
+		"name": "incrementVote",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "pollID",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "candidateID",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "_pollName",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_name",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_img",
+				"type": "string"
+			}
+		],
+		"name": "input",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "candidates",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "pollName",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "candidate",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "img",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "votes",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "totalPolls",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_PollID",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_CandidateID",
+				"type": "uint256"
+			}
+		],
+		"name": "viewCandidateImage",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_PollID",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_CandidateID",
+				"type": "uint256"
+			}
+		],
+		"name": "viewCandidateName",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_PollID",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_CandidateID",
+				"type": "uint256"
+			}
+		],
+		"name": "viewPollName",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_PollID",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_CandidateID",
+				"type": "uint256"
+			}
+		],
+		"name": "voteCount",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "walletAddress",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
