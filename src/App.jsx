@@ -52,7 +52,7 @@ const App = () => {
     if(sessionStorage.getItem("connectedUser")){
       connectWallet()
     }
-  },[])
+  })
 
 
 
