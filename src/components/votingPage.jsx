@@ -79,7 +79,7 @@ const VotingPage = (props) => {
     fn()
     currentVote()
     URL()
-  })
+  },[])
 
 
   // Voting Functions
