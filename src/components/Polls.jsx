@@ -33,7 +33,7 @@ function Polls(props) {
 
   useEffect(() => {
     fn()
-  }, [])
+  })
 
   return (
     <div className='poll-section'>

@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import { ethers } from 'ethers';
-import {Link} from 'react-router-dom'
 
 import votingABI from '../contracts/votingABI.json';
 import Header from './Header';
@@ -10,7 +9,7 @@ import NavigationPane from './NavigationPane';
 import '../styles/createPoll.css'
 
 const CreatePoll = (props) => {
-  const { isConnected, connectWallet, votingContract, contractAddress, polls } = props;
+  const { isConnected, connectWallet, contractAddress, polls } = props;
 
 
   const [title, setTitle] = useState('');
