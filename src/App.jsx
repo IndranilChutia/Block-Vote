@@ -19,7 +19,7 @@ const App = () => {
 
 
 
-  const contractAddress = "0x91a2F0De7529Ce5E525dC46dC0a33adBEd9eEa34"
+  const contractAddress = "0x72dCFBcD84cB6E1F19A7D4020e0f02573864328c"
   const provider = new ethers.providers.Web3Provider(window.ethereum)
   const signer = provider.getSigner()
 
